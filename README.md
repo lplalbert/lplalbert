@@ -22,8 +22,8 @@
 ## 🔭 重点项目
 
 <table>
-<tr><td><b>🤖 life-agent</b> — Android GUI Agent</td></tr>
-<tr><td>截图 + 控件树感知 → LLM 决策 → 安全闸门 → 执行的真机 Agent 循环；消费类操作强制确认、验证码交还人工、每步留痕可回溯。Python / ADB / Android</td></tr>
+<tr><td><b>🤖 life-agent</b> — Android GUI Agent + 恢复证据研究</td></tr>
+<tr><td>截图 + 控件树感知 → LLM 决策 → 安全闸门 → 执行的真机 Agent 循环；消费类操作强制确认、每步留痕可回溯。研究侧：Provenance Gate（动作时刻证据出处闸门）、受控 A/B、配对符号检验 + 聚类 bootstrap 统计工具、故障归因四分类。Python / ADB / Android</td></tr>
 <tr><td><b>💧 dx_overlay_code / fftmask / inrsteg</b> — 水印与隐写研究系列</td></tr>
 <tr><td>RS(15,5) 编码 ID 水印叠加与截图检测（C++/Python）；FFT 频域 60bit 水印嵌入/解码（YCrCb）；高分辨率鲁棒水印框架，抵抗极端裁剪与缩放</td></tr>
 <tr><td><b>✍️ MizigeFontGen / font_score</b> — 字体生成与评分</td></tr>
@@ -38,6 +38,7 @@
 
 ## 📦 其他
 
+- **ai-video-pipeline** — AI 视频生产流水线（选题→文案→配音→素材→成片→投稿），含评测基建：故障注入、盲评一致性、四臂对照闭环、种子冻结
 - **regular-script** — 柳公权楷书 64×64 汉字数据集与笔画标准
 - **tools_label** — YOLO 标注工具集（类别重映射、分布统计、YAML 生成）
 - **Zotero_plugin** — Zotero 7 插件开发
