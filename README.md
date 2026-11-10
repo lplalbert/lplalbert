@@ -4,7 +4,7 @@
 
 **李沛霖**｜华中科技大学 计算机与人工智能学院 计算机科学与技术 博士一年级
 
-**逆向工程 · 数字水印/隐写 · Agent 系统 · 量化数据工程**
+**数字水印/隐写 · Agent 系统 · 量化数据工程**
 
 [![Blog](https://img.shields.io/badge/Blog-lplalbert.github.io-blue)](https://lplalbert.github.io)
 
@@ -14,7 +14,6 @@
 
 ## 🧭 关注方向
 
-- **逆向工程与二进制/数据格式解析**：格式逆向、互操作工具链、取证式校验
 - **数字水印与隐写**：频域/空间域嵌入、鲁棒性攻击评测、水印定位与提取
 - **Agent 系统工程**：多 Agent 协作编排、GUI Agent、安全闸门与全链路审计
 - **数据工程质量体系**：大规模数据入库、覆盖率/完整性审计、事件级验证与可复现评测
@@ -30,6 +29,15 @@
 <tr><td>米字格手写风格字体生成（2/3 类变体，MIT）；字帖图片预处理 → OCR → 字符评分完整流水线</td></tr>
 <tr><td><b>🀄 maj / maj_server</b> — 麻将拍照识别与点数结算</td></tr>
 <tr><td>多区拍照识别、番符自动分析、日麻点数查表；Flutter 前端 + Python 识别后端</td></tr>
+</table>
+
+## 🤝 开源贡献（进行中）
+
+<table>
+<tr><td><b>🔗 apache/hugegraph-ai</b> — HugeGraph 与 AI/LLM & GraphRAG 的集成</td></tr>
+<tr><td>8 个 PR（#412–#419）：向量检索阈值契约、流式生成契约、Graph 装载数据保真、prompt 配置运行时解析与 .env 往返、InfoExtract 长度配置化、Web UI 配置刷新</td></tr>
+<tr><td><b>⚙️ inclusionAI/AReno</b> — 单机 RL post-training 训练工具箱</td></tr>
+<tr><td>2 个 PR（#666/#667）：off-policy 校正的异步 GRPO/GSPO 损失、有界样本队列的异步策略训练器</td></tr>
 </table>
 
 ## 🛠 技术栈
